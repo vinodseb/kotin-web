@@ -5,8 +5,12 @@
  */
 
 plugins {
-    // Apply the Kotlin JVM plugin to add support for Kotlin.
-    id("org.jetbrains.kotlin.jvm") version "1.3.71"
+
+    id("org.springframework.boot") version "2.2.2.RELEASE"
+    id("io.spring.dependency-management") version "1.0.8.RELEASE"
+    kotlin("jvm") version "1.3.61"
+    kotlin("plugin.spring") version "1.3.61"
+    kotlin("plugin.jpa") version "1.3.61"
 
     // Apply the application plugin to add support for building a CLI application.
     application
