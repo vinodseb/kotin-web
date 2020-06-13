@@ -6,12 +6,17 @@ import kotlin.test.assertEquals
 class MathKtTest {
 
     @Test
-    fun add_test() {
+    fun add() {
         assertEquals(3, add(1, 2))
     }
 
     @Test
-    fun subtract_test() {
+    fun subtract() {
         assertEquals(1, subtract(3, 2))
+    }
+
+    @Test
+    fun greaterThan() {
+        assertEquals("true", greaterThan(5, 3))
     }
 }
