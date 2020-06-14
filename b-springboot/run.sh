@@ -1,2 +1,2 @@
 #!/bin/sh
-./gradlew --no-daemon clean bootRun -test
+./gradlew --no-daemon clean build bootRun
