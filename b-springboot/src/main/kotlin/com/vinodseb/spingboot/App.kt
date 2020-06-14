@@ -5,10 +5,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class SpingbootApplication
+class App
 
 fun main(args: Array<String>) {
-    runApplication<SpingbootApplication>(*args) {
+    runApplication<App>(*args) {
         setBannerMode(Banner.Mode.OFF)
     }
 }
